@@ -1,0 +1,39 @@
+{
+  "name": "autotrader-scrapper-cli",
+  "version": "1.0.0",
+  "description": "AutoTrader Scrapper CLI Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahman95/autotrader-scrapper-cli.git"
+  },
+  "keywords": [
+    "autoTrader",
+    "scrapper",
+    "api",
+    "cli",
+    "snipper",
+    "tool"
+  ],
+  "author": "Rahman Younus <rahman_95@live.co.uk> (https://ryounus.co.uk/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahman95/autotrader-scrapper-cli/issues"
+  },
+  "homepage": "https://github.com/rahman95/autotrader-scrapper-cli#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "boxen": "^3.1.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.22",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
