@@ -1,0 +1,107 @@
+{
+  "apiUrl": "https://www.autotrader.co.uk/results-car-search",
+  "options": [
+    {
+      "name": "postcode",
+      "question": "Enter Postcode",
+      "type": "input",
+      "getValues": false
+    },
+    {
+      "name": "radius",
+      "question": "Select Mileage Radius",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "make",
+      "question": "Select Car Make",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "model",
+      "question": "Select Car Model",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "priceFrom",
+      "question": "Select Min Price",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "priceTo",
+      "question": "Select Max Price",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "yearFrom",
+      "question": "Select From Year",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "yearTo",
+      "question": "Select To Year",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "minimumMileage",
+      "question": "Select Min Mileage",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "maximumMileage",
+      "question": "Select Max Mileage",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "bodyType",
+      "question": "Select Body Type",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "fuelType",
+      "question": "Select Fuel Type",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "minimumBadgeEngineSize",
+      "question": "Select Min Engine Size",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "maximumBadgeEngineSize",
+      "question": "Select Max Engine Size",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "transmission",
+      "question": "Select Car Transmission",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "colour",
+      "question": "Select Car Colour",
+      "type": "list",
+      "getValues": true
+    },
+    {
+      "name": "sellerType",
+      "question": "Select Seller Type",
+      "type": "list",
+      "getValues": true
+    }
+  ]
+}
