@@ -1,9 +1,10 @@
 import chalk from 'chalk';
-import { getOptionValues } from './lib/scrapper'; 
+import { getOptionValues } from './lib/scrapper';
 
 async function run() {
-    getOptionValues();
+    const options = await getOptionValues();
+
+    console.log(options);
 }
-  
+
 run();
-  
