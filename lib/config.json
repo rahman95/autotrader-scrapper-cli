@@ -2,102 +2,119 @@
   "apiUrl": "https://www.autotrader.co.uk/results-car-search",
   "options": [
     {
+      "id": 1,
       "name": "postcode",
       "question": "Enter Postcode",
       "type": "input",
       "getValues": false
     },
     {
+      "id": 2,
       "name": "radius",
       "question": "Select Mileage Radius",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 3,
       "name": "make",
       "question": "Select Car Make",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 4,
       "name": "model",
       "question": "Select Car Model",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 5,
       "name": "priceFrom",
       "question": "Select Min Price",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 6,
       "name": "priceTo",
       "question": "Select Max Price",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 7,
       "name": "yearFrom",
       "question": "Select From Year",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 8,
       "name": "yearTo",
       "question": "Select To Year",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 9,
       "name": "minimumMileage",
       "question": "Select Min Mileage",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 10,
       "name": "maximumMileage",
       "question": "Select Max Mileage",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 11,
       "name": "bodyType",
       "question": "Select Body Type",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 12,
       "name": "fuelType",
       "question": "Select Fuel Type",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 13,
       "name": "minimumBadgeEngineSize",
       "question": "Select Min Engine Size",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 14,
       "name": "maximumBadgeEngineSize",
       "question": "Select Max Engine Size",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 15,
       "name": "transmission",
       "question": "Select Car Transmission",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 16,
       "name": "colour",
       "question": "Select Car Colour",
       "type": "list",
       "getValues": true
     },
     {
+      "id": 17,
       "name": "sellerType",
       "question": "Select Seller Type",
       "type": "list",
